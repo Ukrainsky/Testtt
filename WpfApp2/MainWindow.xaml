@@ -23,9 +23,7 @@
             <Image Width="98"   Source="Icons/4foodstock.png"    Grid.Column="2" Height="111" RenderTransformOrigin="1.065,0.53" />
             <Canvas HorizontalAlignment="Left" Height="25" Margin="74,73,0,0" VerticalAlignment="Top" Width="21">
                 <Button x:Name="b_personCounter" Content="1" Click="Button_Click"  Width="21" RenderTransformOrigin="0.449,0.333" Height="25"/>
-
-            </Canvas>
-                
+            </Canvas>                
         </Grid>
 
     </StackPanel>

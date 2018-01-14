@@ -8,6 +8,6 @@
         Title="Window1" Height="300" Width="300">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Height="117"  Margin="10,39,0,0" TextWrapping="Wrap" Text="How many people are you?" FontSize="34"  VerticalAlignment="Top" Width="246"/>
-        <TextBox Name="MyTextBoxt1" Text="{Binding Path=MyValue, Mode=TwoWay, StringFormat={}{0:F2}}" HorizontalAlignment="Center" Height="66" Margin="92,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" RenderTransformOrigin="0.506,0.48" TextChanged="MyTextBox_TextChanged"/>
+        <TextBox Name="TB" Text="{Binding Path=MyValue, Mode=TwoWay, StringFormat={}{0:F2}}" HorizontalAlignment="Center" Height="66" Margin="92,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" RenderTransformOrigin="0.506,0.48" TextChanged="MyTextBox_TextChanged"/>
     </Grid>
 </Window>
